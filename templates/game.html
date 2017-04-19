@@ -4,10 +4,10 @@
     {% block content %}
     <h2>Play Madlibs with us!</h2>
     <form action="/madlib">
-        Person: <input type="text" name="person"><br>
-        Color: <input type="text" name="color"><br>
-        Noun: <input type="text" name="noun"><br>
-        Adjective: <input type="text" name="adjective"><br>
-        <input type="submit">
+        <input class="form-control" placeholder="Person" type="text" name="person"><br>
+        <input class="form-control" placeholder="Color" type="text" name="color"><br>
+        <input class="form-control" placeholder="Noun" type="text" name="noun"><br>
+        <input class="form-control" placeholder="Adjective" type="text" name="adjective"><br>
+        <input class="btn btn-default" type="submit">
     </form>
     {% endblock %}

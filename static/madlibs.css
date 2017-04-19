@@ -1,31 +1,19 @@
 h1 {
 
     display: inline;
-
     position: relative;
-
     font: 200px "Raleway", Sans-Serif;
-
     letter-spacing: -5px;
-
     color: rgba(0,0,255,0.5); 
 
 }
 
 h2 {
     display: inline;
-
     position: relative;
-
     font: 80px "Raleway", Sans-Serif;
-
     letter-spacing: -5px;
-
     color: rgba(0,0,255,0.5); 
-}
-
-.Name {
-    text-transform: capitalize;
 }
 
 p {
@@ -33,24 +21,37 @@ p {
 }
 
 footer {
-  position: absolute;
-  font-size: 30px;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  background-color: #efefef;
-  text-align: center;
+    position: absolute;
+    font-size: 30px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #efefef;
+    text-align: center;
 }
 
 h1:after {
 
     content: "Hi There!";
-
     position: absolute; 
-
     left: 10px; top: 5px;
-
-    color: rgba(255,0,0,0.5);   
+    color: rgba(255,100,100,0.2);   
 
 }
 
+.Name {
+    text-transform: capitalize;
+}
+
+body {
+    background: linear-gradient(184deg, #ffffff, #e4e4ff);
+    background-size: 200% 200%;
+
+/*animation: background-gradient 4s ease infinite;
+
+@keyframes background-gradient { 
+    0%{background-position:0% 13%}
+    50%{background-position:100% 88%}
+    100%{background-position:0% 13%}*/
+
+}
