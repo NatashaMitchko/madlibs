@@ -1,0 +1,13 @@
+
+{% extends 'base.html' %}
+
+    {% block content %}
+    <h2>Play Madlibs with us!</h2>
+    <form action="/madlib">
+        Person: <input type="text" name="person"><br>
+        Color: <input type="text" name="color"><br>
+        Noun: <input type="text" name="noun"><br>
+        Adjective: <input type="text" name="adjective"><br>
+        <input type="submit">
+    </form>
+    {% endblock %}

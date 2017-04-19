@@ -1,0 +1,14 @@
+
+{% extends 'base.html'%}
+{% block content %}
+<h1>Hi There! &nbsp;</h1>
+
+<p><form action="/greet">
+  What is your name? <input type="text" name="person"><br>
+
+  Would you like to play a game?
+  <input type="radio" name="game" value="True">Yes</input>
+  <input type="radio" name="game" value="False">No</input>
+  <input type="submit">
+</form></p>
+{% endblock %}

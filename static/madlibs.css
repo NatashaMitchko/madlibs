@@ -1,0 +1,32 @@
+h1, h2 {
+
+    display: inline;
+
+    position: relative;
+
+    font: 200px "Raleway", Sans-Serif;
+
+    letter-spacing: -5px;
+
+    color: rgba(0,0,255,0.5); 
+
+}
+
+p {
+    font: "Raleway", Sans-Serif;
+}
+
+
+
+h1:after {
+
+    content: "Hi There!";
+
+    position: absolute; 
+
+    left: 10px; top: 5px;
+
+    color: rgba(255,0,0,0.5);   
+
+}
+
