@@ -1,4 +1,4 @@
-h1, h2 {
+h1 {
 
     display: inline;
 
@@ -12,11 +12,35 @@ h1, h2 {
 
 }
 
+h2 {
+    display: inline;
+
+    position: relative;
+
+    font: 80px "Raleway", Sans-Serif;
+
+    letter-spacing: -5px;
+
+    color: rgba(0,0,255,0.5); 
+}
+
+.Name {
+    text-transform: capitalize;
+}
+
 p {
     font: "Raleway", Sans-Serif;
 }
 
-
+footer {
+  position: absolute;
+  font-size: 30px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #efefef;
+  text-align: center;
+}
 
 h1:after {
 

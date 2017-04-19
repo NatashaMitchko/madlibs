@@ -1,5 +1,9 @@
 
 {% extends 'base.html'%}
 {% block content %}
-    Hi {{ person }}! I think you're {{ compliment }}!
+<h2>Hi <span class="Name">{{ person }}</span>! </h2>
+    {% for compliment in compliments %}
+        <h2>I think you're {{ compliment }}!</h2><br>
+{% endfor %}
+<footer><a href="/greet?person={{ person }}&compliments=Yes">Give me more compliments<a></footer>
 {% endblock %}
